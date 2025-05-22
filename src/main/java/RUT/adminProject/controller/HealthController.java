@@ -10,6 +10,6 @@ public class HealthController {
 
     @GetMapping
     public String checkHealth() {
-        return "Everything is fine. The server is running. Performed by Zvyagintsev Roman UVP-311";
+        return "Everything is VERY FINE. The server is RUNning. Performed by Zvyagintsev Roman UVP-311"+"\n";
     }
 }
